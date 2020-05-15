@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+
+<!-- jquery呼び出し -->
+<script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+<!-- css呼び出し -->
+<link rel="stylesheet" href="mine/mine.css">
+<title>自己紹介サイト</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<!-- ポップアップbox -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+
+<!-- スライダー -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 3000,
+                slideWidth:698,
+                pager: false ,
+                controls: false,
+            });
+        });
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="slick/slick-1.8.1/slick/slick.css">
+
+<!-- 揃えるよみこみ-->
+<script src="jquery.equalheights.js" type="text/javascript"></script>
+
+<script src="js/trianglify.min.js"></script>
+
+
+
+
+</head>
+<body  link="#ff0000" vlink="#008000" alink="#ffff00">
+
+<!-- ローディング -->
+<div id="loading">
+  <div class="spinner"></div>
+</div >
+
+<header>
+<h1 id="title">HINAARAKI</h1>
+ <img src=img/headmori1.png class="headmori">
+<div id="kumo-img"></div></div>
+
+</header>
+
+
+<div id="wrap">
+
+<!-- 崩れ防止 -->
+<div class="clearfix">
+
+<!-- ★★コンテンツ★★ -->
+<!-- <div id="contents">-->
+
+<div id="test-box"></div>
+
+<!-- メニューバー -->
+
+<div class="h100"></div>
+<div id="menu">
+<ul class="mouseover-text-animation-nav3">
+<li><a href="#">HOME</a></li>
+<li><a href="#PROF">PROF</a></li>
+<li><a href="#HOBBY">HOBBY</a></li>
+<li><a href="#LIKE">LIKE</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="cTitle">
+<a name="PROF"><p><br></p></a>
+
+<div class="wave"><span>P</span><span>R</span><span>O</span><span>F</span></div>
+
+<h3>簡単な自己紹介です。</h3>
+
+<div class="balloonoya" onclick="showBalloon()"><img src="img/kuma5 (2).png" class="kumaProf">
+  <span class="balloon1" id="makeImg"><h4><div>
+<p>名前:荒木陽菜</p>
+<p>出身：新潟県</P>
+<p>生年月日：1998年3月14日</p>
+<p>血液型：B型</p>
+<p>出身大学:武蔵大学</p>
+</div></h4>
+</div></span>
+</div>
+
+
+
+
+
+<div id="PROFpic">
+
+<div id="sample-wrap">
+
+ <div class="box red" >
+   ★FRIENDS
+   <!--  <img src="img/pro1.jpg"> -->
+
+   <a href="img/line_35619782446619.jpg" data-lightbox="group"><img src="img/line_35619782446619.jpg" width="300" height="160"></a>
+
+   </div>
+
+ <div class="box blue">
+   ★ゼミ
+      <a href="img/profile1.jpg" data-lightbox="group"><img src="img/profile1.jpg" width="300"height="160" ></a>
+ </div>
+ <div class="box green">
+   ★TRAVEL
+     <a href="img/pro5.jpg" data-lightbox="group"><img src="img/pro5.jpg" width="300" height="160" ></a>
+ </div>
+</div>
+</div>
+
+
+<div id="cTitle">
+<a name="HOBBY"><p><br></p></a></a>
+<div class="wave"><span>H</span><span>O</span><span>B</span><span>B</span><span>Y</span></div>
+<h3>趣味の紹介です。</h3>
+</div>
+
+<div id="HOBBYhe">
+<!-- スライダー -->
+<ul class="slider2">
+    <li><a href="#"><img src="img/hobby3e.jpg" alt="image01"></a></li>
+   <li><a href="#"><img src="img/hobby2mori.jpg" alt="image01"></a></li>
+   <li><a href="#"><img src="img/hobby1game.jpg" alt="image01"></a></li>
+   <li><a href="#"><img src="img/cafe13.jpg" alt="image01"></a></li>
+   <li><a href="#"><img src="img/cafe8.jpg" alt="image01"></a></li>
+   <li><a href="#"><img src="img/hobby6e.jpg" alt="image01"></a></li>
+     <li><a href="#"><img src="img/cafe11.jpg" alt="image01"></a></li>
+      <li><a href="#"><img src="img/cafe12.jpg" alt="image01"></a></li>
+
+</ul>
+
+<ul class="thumb2" height="200px">
+   <li><a href="#"><img src="img/hobby3e.jpg" alt="image01" height="400"></a></li>
+   <li><a href="#"><img src="img/hobby2mori.jpg" alt="image01"></a></li>
+   <li><a href="#"><img src="img/hobby1game.jpg" alt="image01"></a></li>
+   <li><a href="#"><img src="img/cafe13.jpg" alt="image01"></a></li>
+   <li><a href="#"><img src="img/cafe8.jpg" alt="image01"></a></li>
+   <li><a href="#"><img src="img/hobby6e.jpg" alt="image01"></a></li>
+    <li><a href="#"><img src="img/cafe11.jpg" alt="image01"></a></li>
+     <li><a href="#"><img src="img/cafe12.jpg" alt="image01"></a></li>
+</ul>
+
+
+</div>
+
+
+<div id="HOBBY">
+<!-- フェードイン -->
+ <div class="fadein">
+<!-- 説明表示 -->
+<ul>
+<li>
+ゲーム
+<div class="sample10">
+	<img src="img/hobby3mori.jpg"  />
+	<div class="mask">
+		<div class="caption"><p class="typ">あつ森してます。</p></div>
+		</div>
+		</div>
+</li>
+<li>
+イラスト
+	<div class="sample10">
+	<img src="img/hobby7e.jpg"  />
+	<div class="mask">
+	<div class="caption">
+		<div class="caption"><p class="typ">宇宙猫</p></div>
+	</div>
+	</div>
+</li>
+<li>
+カフェ巡り
+	<div class="sample10">
+	<img src="img/cafe6.jpg"  />
+	<div class="mask">
+		<div class="caption"><p class="typ">京都おすすめ</p></div>
+	</div>
+	</div>
+	</li>
+<li>
+<a href="https://omocoro.jp/">OMOKORO</a>
+	<div class="sample10">
+	<img src="img/omokoro.png"/>
+	<div class="mask">
+		<div class="caption"><p class="typ">暇つぶしのお供</p></div>
+	</div>
+	</div>
+	</li>
+
+
+</ul>
+</div>
+</div>
+
+<div id="cTitle">
+<a name="LIKE"><p><br></p></a>
+
+<div class="wave"><span>L</span><span>I</span><span>K</span><span>E</span></div>
+
+<h3>元気を貰っているものです。</h3>
+
+</div>
+
+
+<div id="LIKEhe">
+
+<!-- スライダー（bxスライダー） -->
+
+<div class="slider">
+<img src="img/zoc.bmp" width="600px" height="400px"  style=left:100px;>
+<img src="img/moon.jpeg"width="600px" height="400px" style=left:100px;>
+<img src="img/kati.jpg" width="600px" height="400px"  style=left:100px;>
+<img src="img/kudo.png"   width="600px" height="400px" style=left:100px;>
+<img src="img/like2zocn.jpg"width="600px" height="400px" style=left:100px;>
+</div>
+</div>
+
+
+
+
+
+<div id="LIKE">
+<!-- gif -->
+<!--  <div class="columns">-->
+<!-- フェードイン -->
+ <div class="fadein">
+
+
+<ul class="love">
+<li>
+<div class="balloon7">ZOC</div>
+<h6>
+<div class="img-box">
+  <img src="img/zoc2.jpg" class="gif" alt="">
+  <img src="img/zoc2.gif" alt="" class="active" height="225px">
+  ★最近<div class="up">ZOC</div>にはまりました。メイクで油性ペンを使う子や、少年院あがり子がいたりメンバーの個性が爆発してます。<br>西井万理那ちゃんを推してますが、みんな好きです。
+</div>
+</h6>
+</li>
+<li>
+<div class="balloon7">モー娘。</div>
+<h6>
+<div class="img-box">
+  <img src="img/momusu1.jpg" alt="" class="gif" >
+    <img src="img/momusu1.gif" alt=""  class="active" width="600px"
+height="225px" >
+ ★<div class="up">モー娘</div>がミニモニ時代から好きです！キレキレのパフォーマンスが格好いいです。</div>
+ </h6>
+</li>
+<li>
+<div class="balloon7">ANIME</div>
+<h6>
+<div class="img-box">
+  <img src="img/moon.jpeg" class="gif" alt="">
+  <img src="img/moon.gif"  height="225px" alt="" class="active">
+★<div class="up">  魔法少女アニメ</div>が好きで、観ると心が癒されます。セーラームーンは今youtubeで3作分無料配信してるので、是非観てみてください。</div>
+</h6></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<!-- ページトップ -->
+ <p id="pageTop"><a href="#"></a></p>
+</div>
+
+<!-- フッター -->
+<footer>
+<h8>h.araki</h8>
+</footer>
+<!-- スリック -->
+<script type="text/javascript" src="slick/slick-1.8.1/slick/slick.min.js"></script>
+<script src="js/mine.js"></script>
+
+
+</body>
+</html>

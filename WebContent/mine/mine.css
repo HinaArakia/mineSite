@@ -1,0 +1,947 @@
+/*すりっく*/
+.thumb2 img{
+	height:200px;
+	width:300px;
+}
+
+.slider2{
+    margin: 100px auto;
+    width: 80%;
+}
+.slider2 img{
+    height: 400px;
+    width: 100%;
+}
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+
+}
+
+.slick-track{
+border-radius:20px;
+background-image: linear-gradient(to right,  3px, transparent 3px, transparent 8px);
+background-repeat: repeat-x;
+color:white;
+width:600px;
+height:150px;
+
+background-repeat: no-repeat;
+
+}
+li slick-slide{
+	margin:10px;
+	width:100px;
+	height:300px;
+}
+
+.button {
+
+	 margin: 8px;
+   border: 1px solid #000;
+   color: #000;
+   padding: 8px;
+   text-align: center;
+   width: 8em;
+   transition: all 300ms ease;
+	/*
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    */
+
+
+}
+.buttons .button {
+   margin: 8px;
+   border: 1px solid #000;
+   color: #000;
+   padding: 8px;
+   text-align: center;
+   width: 8em;
+   transition: all 300ms ease;
+ }
+
+ .buttons .button:hover {
+   cursor: pointer;
+   background-color: #000;
+   color: #fff;
+   transition: all 300ms ease;
+ }
+
+
+
+
+.balloon3 {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 0 5px;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  background: #70a6ff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.balloon3:before {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #70a6ff;
+  z-index: 0;
+}
+
+ .fadein {
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 1500ms;
+}
+
+.fadein.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+
+#wrap {
+width:960px;
+margin:0 auto;
+background-color:#997f5d;
+}
+
+/*ローディング*/
+
+#loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s;
+  background-color: #d65029;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 200px auto;
+  background-color: #fff;
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+/* Hide Loading Block */
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Contents Styling */
+.gallery {
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/*★ヘッダー★*/
+
+.headmori{
+	width:1347px;
+	height:656px;
+}
+
+header {
+position:relative;
+height:100%;
+border:dashed 1px #999;
+background-color:#e68c8c;
+z-index:5;
+}
+
+/*雲が動く*/
+#kumo-img {
+	height:100vh;
+    width: 100%;
+    margin: 0 auto;
+    background:  url("../img/kumo.png");
+z-index: -1;
+
+}
+
+
+/*熊*/
+<style type="text/css">
+
+#test-box {
+background-color: #F39;
+height: 100px;
+width: 100px;
+position: relative;
+}
+
+/*★コンテンツ★*/
+#cTitle{width:958px;
+height:140px;
+margin:10px 0px 10px 0px;
+background-color:#00ffff;
+border-radius:30px;
+background:url("../img/wood.png")
+}
+
+#PROFtx {
+width:958px;
+height:298px;
+margin:10px 0px 10px 0px;
+background-color:#997f5d;
+
+}
+#PROFpic {
+width:958px;
+height:498px;
+margin:10px 0px 10px 0px;
+background-color:#997f5d;
+background:url("../img/book1.png");
+background-position:center;
+background-repeat: no-repeat;
+}
+
+#HOBBYhe {
+width:958px;
+height:900px;
+margin:10px 0px 10px 0px;
+background-color:#997f5d;
+}
+
+
+#HOBBY {
+width:958px;
+height:498px;
+margin:10px 0px 10px 0px;
+background-color:#997f5d;
+}
+
+
+#LIKEhe {
+width:958px;
+height:398px;
+margin:10px 0px 10px 0px;
+background-color:#997f5d;
+}
+
+#LIKE {
+width:958px;
+height:898px;
+margin:10px 0px 10px 0px;
+background-color:#997f5d;
+}
+
+
+
+.balloon7 {
+  position: relative;
+  margin: 0 0 0 0;
+  padding: 1px;
+  background: #fff0c6;
+  border-radius: 30px;
+}
+
+.balloon7:before {
+  content: "";
+  position: absolute;
+  left: -38px;
+  width: 13px;
+  height: 12px;
+  bottom: 0;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+
+.balloon7:after {
+  content: "";
+  position: absolute;
+  left: -24px;
+  width: 20px;
+  height: 18px;
+  bottom: 3px;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+.balloon7 p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*メニューバー*/
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+}
+#menu {
+  text-align: center;
+  background-color: rgba( 255,255,255, 0.55 );
+  color: #fff;
+  height: 50px;
+  line-height: 30px;
+
+}
+li{
+  text-align: center;
+  font-size:35px;
+  color: #66421f;
+  inline:block;
+  list-style:none;
+  float:left;
+  letter-spacing:10px;
+  font-family:"S2G海フォント";
+  padding-left:50px;
+  padding-bottom:10px;
+}
+.h100{
+
+  height: 100px;
+}
+
+/*★フッター★*/
+footer {
+background-color:#8a998f;
+height:100px;
+
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+/*★画像★*/
+.kumaProf{
+width:300px;
+heght:300px;
+padding-bottom:100px;
+padding-left:100px;
+transform: rotate( 25deg );
+z-index:10;
+
+}
+
+img{
+margin: 0px 0px 0px 0px;
+
+width:300px;
+height:300px
+position: relative;
+float:left;
+
+}
+
+
+.top-banner{
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.top-banner li {
+	float:left;
+	width: 100px;
+	padding:-10px;/*余白を入れる*/
+	box-sizing:border-box;
+
+}
+.top-banner li img {
+	margin-left:0px;
+	hspace:-100px;
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+	border:solid 25px white; /*白の枠線で囲む*/
+	box-shadow:5px 5px #b3a5a1;
+}
+
+
+
+/*重ねて画像*/
+/* wrapper */
+#sample-wrap{
+ position: relative;
+ z-index: 0;
+ margin: 0;
+ padding: 0;
+ margin: auto;
+width:200px;
+}
+/* Box */
+.box{
+  padding: 5px;
+  width: 300px;
+  height:200px;
+}
+/* 赤のBox */
+.red{
+ position: absolute;
+ top: 100px;
+ left: 10px;
+ z-index: 3;
+  transform: rotate( -35deg );
+  background-color:white;
+  border:solid 15px white; /*白の枠線で囲む*/
+	box-shadow:5px 5px #b3a5a1;
+}
+.red:hover{
+ z-index:3;
+}
+/* 青のBox */
+.blue{
+ position: absolute;
+ top: 100px;
+ left: 70px;
+ z-index: 2;
+ background-color:white;
+  transform: rotate( 0deg );
+  border:solid 15px white; /*白の枠線で囲む*/
+	box-shadow:5px 5px #b3a5a1;
+}
+.blue:hover{
+ z-index:3;
+}
+/* 緑のBox */
+.green{
+ position: absolute;
+ top: 90px;
+ left: 20px;
+ z-index: 1;
+ background-color:white;
+  transform: rotate( 25deg );
+  border:solid 15px white; /*白の枠線で囲む*/
+	box-shadow:5px 5px #b3a5a1;
+}
+.green:hover{
+ z-index:3;
+}
+
+
+
+/*gif*/
+.img-box {
+  position: relative;
+}
+.img-box .active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.5s; // ゆっくり
+}
+.img-box:hover .active {
+  opacity: 1;
+  float:left;
+}
+
+/*ジフ*/
+.gif{width:300px;
+height:225px;}
+
+/*★★文字★★*/
+
+h1{
+position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+padding-left:100px;
+font-family:"mini-wakuwaku-maru";
+font-size:100px;
+color:#66421f;
+z-index:10;
+}
+h2{
+	font-size:100px;
+	padding-left:390px;
+	font-family:"S2G海フォント";
+	color:#66421f;
+}
+h3{
+	font-family:"S2G海フォント";
+	color:#66421f;
+	padding-left:390px;
+
+}
+h4{
+	font-family:"S2G海フォント";
+	color:#66421f;
+	padding-left:0px;
+}
+
+
+h6 {
+
+	margin:10px 0 1px 0;
+  text-align: left;
+  font-size:15px;
+  color: #66421f;
+  inline:block;
+  list-style:none;
+  float:left;
+  letter-spacing:10px;
+  font-family:"S2G海フォント";
+  padding-left:100px;
+  padding-bottom:10px;
+
+}
+
+h8{font-family:"mini-wakuwaku-maru";
+	margin-top:200px;
+	padding-left:660px;
+}
+
+
+
+/*一文字ずつ*/
+#title {
+    color: #4d260b;
+    font-size: 100px;
+}
+
+/*崩れ防止*/
+/*.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}*/
+
+#clear {
+clear:both;
+}
+
+/*フォント*/
+body, figure {
+	font-family:"S2G海フォント","Leelawadee UI","Microsoft Sans Serif","メイリオ"," Meiryo","Verdana","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3","ヒラギノ角ゴシック","Hiragino Sans",sans-serif;
+	color:#6c2a1c;
+
+	background-color:#997f5d;
+	margin: 0;
+	text-decoration: none;
+
+}
+
+
+
+/*ドラッグ時の文字色の変更*/
+* ::selection {
+		background-color: #ff5f69;
+		color: #fff;}
+
+
+
+/*バルーン*/
+.balloonoya {
+  position   : relative;             /* 指定した分だけ相対的に移動 */
+  cursor   : pointer;                /* カーソルをポインターで表示 */
+ padding-top:50px;
+}
+.balloon1 {
+  display: none;                     /* 要素を非表示 */
+}
+.balloon {
+   position: absolute;                   /* 親要素を基準 */
+  display: inline;                      /* 要素をインラインとして表示 */
+  padding: 2px;                         /* テキストの前後の余白 */
+  background-color: #ffffff;       /* 背景色（透明度） */
+  width:180px;                          /* 吹き出し全体の幅 */
+  left : 1%;                           /* 表示位置 */
+  font-size: 80%;                       /* 文字サイズ */
+  border-radius:30px;
+
+}
+.balloon:after{
+ border-left: 12px solid #ffffff;   /* 吹き出し口の幅・色 */
+  border-top: 10px solid transparent;     /* 吹き出し口の高さ１／２ */
+  border-bottom: 10px solid transparent;  /* 吹き出し口の高さ１／２ */
+  right: -10px;                           /* 吹き出し口の位置調整 */
+  top: 30%;                                /* 吹き出し口の縦位置 */
+  content: "";                       /* コンテンツの挿入 */
+  position: absolute;                /* 親要素を基準 */
+}
+
+
+
+
+</style>
+
+/* ポイントバースト */
+#burst-12 {
+    background:#f8f1e4;
+    width:300px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    border-radius:50px;
+}
+#burst-12:after {
+ content: "";
+   display: block;
+   width: 270px;
+   height: 50px;
+   background:#f8f1e4;
+   top: 60px;
+   left: 15px;
+   border-radius:250px;
+   position: absolute;}
+
+/*説明表示*/
+.sample10 {
+
+	width:			300px;
+	height:			188px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.caption {
+	font-size:		15px;
+	padding-top:		-30px;
+	padding-bottom:100px;
+	padding-left:40px;
+	text-align:left;
+
+	font-family:"S2G海フォント";
+	color:#66421f;
+	z-index:100;
+
+
+}
+.mask {
+width:			250px;
+	height:			50px;
+	position:		absolute;
+	top:			-50px;
+	left:			10px;
+	background:#f8f1e4;
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	border-radius:250px;
+	z-index:10;
+	}
+	.mask:after {
+content: "";
+
+   width:			250px;
+	height:			40px;
+	position:		absolute;
+	top:			-30px;
+	left:			10px;
+	background:#f8f1e4;
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	border-radius:250px;
+	z-index:1;
+   }
+
+.sample10:hover .mask {
+	top:		50px;	/* 下に降りてくるように見せる */
+}
+.sample10 img {
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(1.2);	/* 1.2倍の大きさで表示 */
+	transform:		scale(1.2);
+}
+.sample10:hover img {
+	margin-top:		50px;			/* 画像の絵を下にずらす */
+	-webkit-transform:	scale(1);	/* 元の大きさに戻す */
+	transform:		scale(1);
+}
+
+/*ページトップ*/
+#pageTop {
+ position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width:50px;
+  height:50px;
+background:url("../img/kumanew.png");
+
+}
+#pageTop a:hover {
+  opacity: 0.9;
+  transition: all 10s linear 0s;
+  cursor: pointer;
+  animation: bound-anim 1s infinite;
+
+}
+@keyframes bound-anim {
+	0%,100% {top: 0;transform: scale(1);}
+	30% {top: -60%; transform: scale(0.96,1.04);}
+	60% {transform: scale(1);}
+	90% {top: 0;transform: scale(1.15,0.9);}
+}
+#pageTop i {
+  padding-top: 6px;
+}
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 8px 0 0 8px;/*
+  border-radius: 30px;*/
+  width: 35px;
+  height: 35px;/*
+  background-color: #9FD6D2;
+  color: #fff;*/
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+
+.bound-img-wrap img{
+  transform: scale(1);
+}
+
+
+/*バウンド*/
+/** 画像ホバー時のアニメを設定 */
+.bound-img-wrap img:hover{
+  -webkit-animation: bound 1s ease-in;
+  -moz-animation:    bound 1s ease-in;
+  animation: bound 1s ease-in;
+}
+
+/** アニメーションの定義 */
+@keyframes bound {
+  /** 開始時は１倍の大きさ */
+  from { transform: scale(1); }
+  /** 0%～25%にかけて1.15倍する */
+  25% { transform: scale(1.15); }
+  /** 25%～50%にかけて0.95倍する */
+  50% { transform: scale(0.95); }
+  /** 50%～75%にかけて1.05倍する */
+  75% { transform: scale(1.05); }
+  /** 終了時は元の大きさに戻す */
+  to { transform: scale(1); }
+}
+
+
+
+
+/*スライダー*/
+
+.bx-viewport{
+	width:600px;
+	height:300px;
+	overflow: hidden;
+	position:relative;
+
+	margin:100px;
+
+}
+
+body .bx-wrapper {
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+border: none;
+background: transparent;
+}
+
+
+/*バウンド*/
+
+@keyframes wave {
+  100% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+.wave {
+  display: block;
+  width: 150px;
+  text-align: center;
+  margin-left:330px;
+}
+
+.wave span {
+
+  font-size:100px;
+	padding-left:3px;
+	font-family:"S2G海フォント";
+	color:#66421f;
+
+}
+
+.wave:hover span {
+  animation-name: wave;
+  animation-duration: .2s;
+  animation-direction: alternate;
+  animation-iteration-count: 2;
+}
+
+.wave:hover span:nth-child(2) {
+  animation-delay: .1s;
+}
+
+.wave:hover span:nth-child(3) {
+  animation-delay: .2s;
+}
+
+.wave:hover span:nth-child(4) {
+  animation-delay: .3s;
+}
+
+#iro{
+	color:red;
+}
+.iro:hover span {
+  animation-name: wave;
+  animation-duration: .2s;
+  animation-direction: alternate;
+  animation-iteration-count: 2;
+}
+
+.iro:hover span:nth-child(2) {
+  animation-delay: .1s;
+}
+
+.iro:hover span:nth-child(3) {
+  animation-delay: .2s;
+}
+
+.iro:hover span:nth-child(4) {
+  animation-delay: .3s;
+}
+
+/*拡大*/
+.up{
+	bottom:100px;
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.up:hover {
+    color:#e68c8c;
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+	/*すらいだ*/
+
+	/* Example5 */
+	.bxslier5_photo,
+	.bxslider5 .bxslider {
+		max-width: 1000px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.bxslider5 ul li {
+		opacity: 0.5;
+		cursor: pointer;
+	}
+	.bxslider5 ul li.active {
+		opacity: 1;
+	}
+	.bxslier5_photo img,
+	.bxslider5 ul li img {
+		width: 100%;
+		height: auto;
+	}
+
+
+
+.slick-slide img{
+	height:550px;
+	width:550px;
+	margin-left:70px;
+	background:none;
+	padding-left:0px;
+
+}
+
+
+
+.entry-content .resize{
+    width:296px;
+    display:block;
+    padding:1em;
+    box-sizing:border-box;
+    transition: all 1s ease-in-out;
+}
+.resize:focus{
+    height:auto;
+    width:100%;
+    transition: all 1s ease-in-out;
+    outline:none;
+}
+.resize > p{
+     margin:0;
+    line-height:1;
+}
+
+
+.thumb{ height:500px;
+margin:500px;
+
+
+}
+
+li .slick-slide slick-current slick-active{
+	data-slick-index:0;
+	aria-hidden:"false";
+	tabindex=0;
+	width:400px;
+	height:400px;
+
+}
+
+.slick-initialized .slick-slide {
+	width:600px;
+
+height:400px;}
